@@ -1,4 +1,15 @@
 <!DOCTYPE html>
 <html>
-
+  <head>
+    <style>
+      #textarea{
+        position:absolute; top:40px; left:50%; transform:translateX(-50%); width: 80%; border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="position:absolute; font-size: 20px; top:-10px; left:50%; transform:translateX(-50%);">Insert some text here and press play to hear it spoken</p>
+    <input type="text" id="textarea" />
+    <div id="play" style="width: 100px; height: 50px; background-color: cyan; border: 1px solid; position:absolute;top: 70px; left: 50%; transform:translateX(-50%);"><p style="position:absolute; left: 50%; top:50%; transform:translate(-50%,-135%);"><b>PLAY</b></p></div>
+  </body>
 </html>
